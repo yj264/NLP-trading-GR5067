@@ -19,3 +19,15 @@ We develop two strategies:
    - Test on 2019 data  
    - Build a market-neutral portfolio based on predictions  
    - Compare performance with baseline model  
+
+In addition to strategy implementation, we provide a simple monitoring module:
+
+- **Data Drift Detection**  
+  - Uses Kolmogorov–Smirnov (KS) test to compare historical vs new input distributions  
+  - Alerts when input distribution shifts significantly  
+
+- **Performance Decay Tracking**  
+  - Computes rolling correlation between predicted and actual returns  
+  - Flags potential model degradation over time  
+
+These monitoring utilities serve as a prototype, aligning with real-world ML deployment practices.
