@@ -19,5 +19,3 @@ We develop two strategies:
    - Test on 2019 data  
    - Build a market-neutral portfolio based on predictions  
    - Compare performance with baseline model  
-
----
